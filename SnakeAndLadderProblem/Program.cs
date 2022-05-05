@@ -41,14 +41,7 @@ namespace SnakeAndLadderProblem
                 //Actions according to player option
                 if (choiceArray[listIndex] == "ladder")
                 {
-                    if ((playerPosition + diceRoll) > 100)
-                    {
-                        playerPosition = 100;
-                    }
-                    else
-                    {
-                        playerPosition += diceRoll;
-                    }
+                    playerPosition += diceRoll;
                 }
                 else if (choiceArray[listIndex] == "snake")
                 {
